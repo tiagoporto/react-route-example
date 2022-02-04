@@ -10,7 +10,7 @@ export function Contact() {
       </nav>
 
       <Routes>
-        <Route path="/" element={<div>Contact page</div>} />
+        <Route index element={<div>Contact page</div>} />
 
         {routes.map(({ path, Component, title }) => (
           <Route path={path} element={<Component />} key={title} />

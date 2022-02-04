@@ -14,7 +14,7 @@ export function App() {
       </nav>
       <Routes>
         {routes.map(({ path, Component, title }) => (
-          <Route path={`${path}/*`} element={<Component />} key={title} ex />
+          <Route path={`${path}/*`} element={<Component />} key={title}s />
         ))}
       </Routes>
     </div>
